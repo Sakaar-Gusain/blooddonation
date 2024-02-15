@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form </title>
+    <link rel="stylesheet" href="btn.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Name</label>
+                </div>
+                <div class="input-group">
+                    <select class="opt">
+                        <option value="volvo">Male</option>
+                        <option value="saab">Female</option>
+                        <option value="opel">Other</option>
+                    </select>
+                    <!-- <label for="">Gender</label> -->
+                </div>
+                <div class="input-group">
+                    <input type="Date" required>
+                    <!-- <label for="">Date of Birth</label> -->
+                </div>
+                <div class="input-group">
+                    <select class="opt">
+                        <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B-</option>
+                        <option value="">AB+</option>
+                        <option value="">AB-</option>
+                        <option value="">O+</option>
+                        <option value="">O-</option>
+                    </select>
+                    <!-- <input type="Blood Group" required> -->
+                    <!-- <label for="">Blood Group</label> -->
+                </div>
+                <div class="input-group">
+                    <select class="opt">
+                        <option value="">-- Select --</option><optgroup title="Uttar Pradesh" label="&raquo; Uttar Pradesh"></optgroup><option value="Agra" >Agra</option><option value="Allahabad" >Allahabad</option><option value="Kushinagar" >Kushinagar</option><option value="Varanasi" >Varanasi</option><option value="Lucknow" >Lucknow</option><optgroup title="Madhya Pradesh" label="&raquo; Madhya Pradesh"></optgroup><option value="Bhopal" >Bhopal</option><option value="Gwalior" >Gwalior</option><option value="Ujjain" >Ujjain</option><option value="Sehore" >Sehore</option><option value="Indore" >Indore</option><optgroup title="Rajasthan" label="&raquo; Rajasthan"></optgroup><option value="Alwar" >Alwar</option><option value="Jaipur" >Jaipur</option><option value="Jodhpur" >Jodhpur</option><option value="Pushkar" >Pushkar</option><option value="Bikaner" >Bikaner</option>
+                    </select>
+                    <!-- <input type="Blood Group" required> -->
+                    <!-- <label for="">Blood Group</label> -->
+                </div>
+                <div class="input-group">
+                    <input type="Email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="numbers" required>
+                    <label for="">Phone No.</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <button type="submit" onclick="SignUp();" class="btn">Sign Up</button>
+                <div class="sign-link">
+                    <p>Already have an account? <a href="#" class="signIn-link">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Email/Phone no.</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="sign-link">
+                    <p>Don't have an account? <a href="#" class="signUp-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="btn.js"></script>
+</body>
+
+</html>
